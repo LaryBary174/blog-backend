@@ -80,3 +80,5 @@ def contact(request):
     ).add_to(folium_map)
     html_map = folium_map._repr_html_()
     return render(request, 'contact.html', {"html_map": html_map})
+
+
